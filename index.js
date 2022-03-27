@@ -54,4 +54,8 @@ client.on("message", async message => {
 
 }); 
 
+client.on('ready'), () => {
+  console.log('Client is ready')
+}
+
 client.login(token); // if you are not on replit use client.login('TOKEN HERE')
