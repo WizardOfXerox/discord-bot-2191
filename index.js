@@ -54,4 +54,5 @@ client.on("message", async message => {
 
 }); 
 
-client.login(token); // if you are not on replit use client.login('TOKEN HERE')
+//client.login(token); // if you are not on replit use client.login('TOKEN HERE')
+client.login('ODUyMjAwODMxMTA0NDUwNTkw.YMDX3w.hh4QWnQ0uDvWy3-kxWZtN65CZ1w')
