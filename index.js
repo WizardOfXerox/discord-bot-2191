@@ -17,7 +17,6 @@ client.on('message', async message => {
   }
 });
 
-
 client.commands = new Collection();
 client.aliases = new Collection();
 client.queue = new Map();
@@ -29,6 +28,7 @@ client.queue = new Map();
 
 client.on("ready", () => {
   client.user.setActivity(default_prefix + `help`)
+  console.log('Client is ready')
 });
 
  
@@ -53,9 +53,5 @@ client.on("message", async message => {
 
 
 }); 
-
-client.on('ready'), () => {
-  console.log('Client is ready')
-}
 
 client.login(token); // if you are not on replit use client.login('TOKEN HERE')
