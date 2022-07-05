@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
+    "@discordjs/opus": "^0.8.0",
     "ascii-table3": "^0.7.4",
     "chalk": "^4.0.0",
     "chalk-animation": "^1.6.0",
