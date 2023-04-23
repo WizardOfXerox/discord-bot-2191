@@ -11,7 +11,7 @@
     "@discordjs/opus": "^0.3.2",
     "ascii-table3": "^0.7.4",
     "chalk": "^4.0.0",
-    "chalk-animation": "^1.6.0",
+    "chalk-animation": "^2.0.3",
     "discord-canvas": "^1.3.2",
     "discord-reply": "^0.1.2",
     "discord.js": "^12.5.0",
